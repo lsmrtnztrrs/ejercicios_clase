@@ -1,8 +1,8 @@
-//Semestre 2017 - 2
+//Semestre 2019 - 2
 //************************************************************//
 //************************************************************//
 //************** Alumno (s): *********************************//
-//*************											******//
+//*************		Martinez torres luis Martin 		******//
 //*************											******//
 //************************************************************//
 #include "Main.h"
@@ -19,6 +19,7 @@ float angCodo = 0.0;
 float angMun = 0.0;
 
 float angPul = 0.0;
+float angInd = 0.0;
 
 
 GLfloat Position[]= { 0.0f, 3.0f, 0.0f, 1.0f };			// Light Position
@@ -184,30 +185,76 @@ void display ( void )   // Creamos la funcion donde se dibuja
 
 	//Indice
 
-	glTranslatef(0.55, -0.165, 0);
-	glScalef(0.12, 0.2, 1);
+	glTranslatef(0.6, -0.165, 0);
+	glScalef(0.2, 0.12, 1);
 	glColor3f(1, 0, 1);
 	prisma();
-	glScalef(0.83, 5, 1);
+	glScalef(5, 0.83, 1);
 
 	//falange Indice
 
-	glTranslatef(0.45, 0, 0);
-	glRotatef(angPul, 1, 0, 0);
-	glTranslatef(0, 0.035, 0);
-	glScalef(0.2, 0.07, 1);
+	glTranslatef(0.1, 0, 0);
+	glRotatef(angInd, 1, 0, 0);
+	glTranslatef(0.1, 0, 0);
+	glScalef(0.2, 0.12, 1);
 	glColor3f(0, 0, 1);
 	prisma();
-	glScalef(5, 14.28, 1);
+	glScalef(5, 0.83, 1);
 
 
 	//Medio
+	glTranslatef(-0.2, -0.03, 0);
+	glScalef(0.2, 0.12, 1);
+	glColor3f(1, 0, 1);
+	prisma();
+	glScalef(5, 0.83, 1);
+
+	//falange Medio
+
+	glTranslatef(0.1, 0, 0);
+	glRotatef(angInd, 1, 0, 0);
+	glTranslatef(0.1, 0, 0);
+	glScalef(0.2, 0.12, 1);
+	glColor3f(0, 0, 1);
+	prisma();
+	glScalef(5, 0.83, 1);
+
 
 	//Anular
 
+	glTranslatef(-0.2, -0.03, 0);
+	glScalef(0.2, 0.12, 1);
+	glColor3f(1, 0, 1);
+	prisma();
+	glScalef(5, 0.83, 1);
+
+	//falange Anular
+
+	glTranslatef(0.1, 0, 0);
+	glRotatef(angInd, 1, 0, 0);
+	glTranslatef(0.1, 0, 0);
+	glScalef(0.2, 0.12, 1);
+	glColor3f(0, 0, 1);
+	prisma();
+	glScalef(5, 0.83, 1);
+
 	//meñique
 
+glTranslatef(-0.2, -0.03, 0);
+	glScalef(0.2, 0.12, 1);
+	glColor3f(1, 0, 1);
+	prisma();
+	glScalef(5, 0.83, 1);
 
+	//falange meñique
+
+	glTranslatef(0.1, 0, 0);
+	glRotatef(angInd, 1, 0, 0);
+	glTranslatef(0.1, 0, 0);
+	glScalef(0.2, 0.12, 1);
+	glColor3f(0, 0, 1);
+	prisma();
+	glScalef(5, 0.83, 1);
 
 		
 		
