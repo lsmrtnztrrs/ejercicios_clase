@@ -97,7 +97,7 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glPopMatrix();
 
 	glPushMatrix();
-	glRotatef(36.0, 0.0, 0.0, 1.0);
+	glRotatef(0, 0.0, 0.0, 1.0);
 	glRotatef(jupiter, 0.0, 1.0, 0.0);
 	glTranslatef(-13.0, 0.0, 0.0);
 	glColor3f(0.7, 0.3, 0.0);
@@ -105,7 +105,7 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glPopMatrix();
 
 	glPushMatrix();
-	glRotatef(-43.0, 0.0, 0.0, 1.0);
+	glRotatef(0, 0.0, 0.0, 1.0);
 	glRotatef(saturn, 0.0, 1.0, 0.0);
 	glTranslatef(18.0, 0.0, 0.0);
 	glColor3f(0.0, 0.5, 0.5);
