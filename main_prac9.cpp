@@ -399,10 +399,86 @@ void display ( void )   // Creamos la funcion donde se dibuja
 		glPushMatrix();
 		glEnable(GL_ALPHA_TEST);
 		glAlphaFunc(GL_GREATER, 0.1);
-		glTranslatef(0, 10, 0);
+		glTranslatef(2, 3, 0);
 		fig1.esfera(4, 15, 15, esfera.GLindex);
 		glDisable(GL_ALPHA_TEST);
 		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(-2, 3, 0);
+		fig1.esfera(4, 15, 15, esfera.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(2, 9, 0);
+		fig1.esfera(4, 15, 15, esfera.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(-2, 9, 0);
+		fig1.esfera(4, 15, 15, esfera.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(-2, 13, 0);
+		fig1.esfera(4, 15, 15, esfera.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(2, 13, 0);
+		fig1.esfera(4, 15, 15, esfera.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(2, 0, 0);
+		fig1.prisma(1, 1, 1, regalo.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(-2, 0, 0);
+		fig1.prisma(1, 1, 1, regalo.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(-4, 0, 0);
+		fig1.prisma(1, 1, 1, regalo.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+		glPushMatrix();
+		glEnable(GL_ALPHA_TEST);
+		glAlphaFunc(GL_GREATER, 0.1);
+		glTranslatef(4, 0, 0);
+		fig1.prisma(4, 1, 1, regalo.GLindex);
+		glDisable(GL_ALPHA_TEST);
+		glPopMatrix();
+
+
+
 
 
 
